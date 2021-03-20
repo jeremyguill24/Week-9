@@ -1,0 +1,103 @@
+body {
+    background-color: white;
+}
+
+h1 {
+    color: orange;
+    text-align: center;
+}
+
+h2 {
+    color: orange;
+    text-align: center;
+}
+
+h3 {
+    color: orange;
+    text-align: center;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:50%;
+}
+
+.linksCenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+}
+
+.shadow-text {
+    text-shadow: gray;
+}
+
+#every-even li:nth-child(even){
+    background-color: orange;
+}
+
+#example {
+    color: black;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:25%;
+}
+
+#aboutPage {
+    color: black;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:50%;
+}
+
+.hov {
+    background-color: pink;
+}
+
+#hov:hover {
+    background-color: royalblue;
+}
+
+.every-even li:nth-child(even){
+    background-color: black;
+}
+
+.every-third li:nth-child(3n) {
+    background-color: black;
+}
+
+table {
+    border-collapse: collapse;
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th, td {
+    padding: 8px;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+tr:nth-child(even) {
+    background-color: rgb(185, 185, 185);
+}
+
+tr:hover {
+    background-color: gray;
+}
+
+#box-model {
+    padding: 20px;
+    border-style: solid;
+    border-width: 3px;
+    margin: 30px;
+    background-color: blue;
+}
